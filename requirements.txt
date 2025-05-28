@@ -1,0 +1,13 @@
+# Password Generator - Dependencias requeridas
+# Instalación: pip install -r requirements.txt
+
+# HTTP requests y API calls
+requests>=2.25.0
+
+# Generación de códigos QR con soporte para imágenes PIL
+qrcode[pil]>=6.1
+
+# Dependencias incluidas en Python 3.6+
+# argparse - Manejo de argumentos CLI (built-in)
+# hashlib - Funciones de hash SHA-1 (built-in)
+# json - Procesamiento de respuestas API (built-in)
